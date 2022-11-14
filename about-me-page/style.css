@@ -91,12 +91,10 @@ footer{
     font-weight: bold;
 }
 .home-paragraph{
-    margin-top: 20px;
+    margin: 20px;
     font-size: 1.5rem;
     color: #ffffff;
     height: 100px;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     font-size: 1.5em;
     background-size: 80%;
@@ -106,9 +104,7 @@ footer{
 .main-paragraph{
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center;
-    text-align: center; */
+
 }
 
 

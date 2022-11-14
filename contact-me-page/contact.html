@@ -1,39 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="contact.css">
-</head>
-<body>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    
+   
+
+    
+ 
   <div class="container">
-    <form action="action_page.php">
-  
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-  
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-  
-      <label for="country">Country</label>
-      <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-      </select>
-  
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-  
-      <input type="submit" value="Submit">
-  
-    </form>
+<div class="nav-list">
+  <nav> 
+    <ul class="nav-list">
+      <li><a href="" class=" btn btn-lg"><span>Home</span> </a></li>
+      <li><a href="/about-me-page/index1.html" class=" btn btn-lg"><span>About Me</span> </a></li>
+      <li><a href="#" class=" btn btn-lg"><span>Experience</span> </a></li>
+      <li><a href="#" class=" btn btn-lg"><span>Portfolio</span> </a></li>
+      <li><a href="/contact-me-page/contact.html" class=" btn btn-lg"><span>Contact Me</span> </a></li>
+  </ul>
+</nav>
+</div>
+
+    <header>
+      <h1>Say Hello</h1>
+      <h3>feel free to contact me.</h3>
+    </header>
+    <div><input class="header-class" type="name" placeholder="Your Name" style="height:30px; width: 250px;">
+      <input class="header-class" type="lastname" placeholder="Your Last Name" style="height:30px; width: 250px;"></div>
+  <select class="header-class" name="country" style="height:30px; width: 524px;">
+    <option value="australia">Uzbekistan</option>
+    <option value="canada">Saudi Arabia (KSA)</option>
+    <option value="usa">USA</option>
+    <option value="usa">Turkey</option>
+    <option value="usa">Polistin</option>
+    <option value="usa">Russia</option>
+
+  </select>
+
+  <textarea class="header-class"name="subject" placeholder="Your Message.." style="height:200px; width: 524px;"></textarea>
+
+
+<button class="header-btm" style="height:30px; width: 100px;">Submit</button>
   </div>
-
-
-
-  <script src="contact.js"></script>
-</body>
-</html>
+ </body>
+ </html>
