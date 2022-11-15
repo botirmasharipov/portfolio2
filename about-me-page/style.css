@@ -327,3 +327,11 @@ h4 {
   text-align: center;
   background: #ffbc00;
 }
+
+.wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
