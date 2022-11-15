@@ -60,8 +60,9 @@ footer {
   justify-content: space-evenly;
 }
 .footer-container {
+  text-align: center;
   margin-top: 30px;
-  min-width: 15vw;
+  max-width: 15vw;
   min-height: 20vh;
   background-color: #ffffff;
   justify-content: space-between;
